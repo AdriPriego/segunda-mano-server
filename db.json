@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": "1234",
+      "name": "Televisor_HD",
+      "price": 120,
+      "description": "Funciona perfectamente, nuevo mando a distancia",
+      "img": "",
+      "state": false,
+      "keyWords": [
+        "Samsung",
+        "LG",
+        "Sony"
+      ],
+      "category": "televisones"
+    },
+    {
+      "id": "2345",
+      "name": "Gorra",
+      "price": 30,
+      "description": "gorra buena estado",
+      "state": true,
+      "keyWords": [
+        "Gorrahombre",
+        "Gorro",
+        "Gorra"
+      ],
+      "category": "ropa"
+    },
+    {
+      "name": "Televisor LG de 40 pulgadas",
+      "price": 180,
+      "description": "Funciona perfectamente",
+      "img": "",
+      "state": false,
+      "keyWords": [
+        "Samsung",
+        "LG",
+        "Sony"
+      ],
+      "category": "televisones",
+      "id": "3456"
+    },
+    {
+      "id": "e908KHp"
+    }
+  ],
+  "reviews": [
+    {
+      "rating": 8,
+      "productsId": "3456",
+      "id": "rKA3f1J"
+    },
+    {
+      "rating": 20,
+      "productsId": "2345",
+      "id": "AjP1qSU"
+    }
+  ]
+}
