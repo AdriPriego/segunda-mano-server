@@ -1,60 +1,87 @@
 {
   "products": [
     {
-      "id": "1234",
-      "name": "Televisor_HD",
+      "name": "televisor",
       "price": 120,
       "description": "Funciona perfectamente, nuevo mando a distancia",
-      "img": "",
-      "state": false,
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUTEhMWFRUVFxUYGBUXGBUXGBUWFhcXFxcXGRUYHiggGBolGxcVITEhJSktLi4uGB8zODMtNygtLisBCgoKDg0OGxAQGy0lICUtLS0tLy81LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAAcBAAAAAAAAAAAAAAAAAQIDBAUGBwj/xABKEAABAwEFAwUKCggGAwAAAAABAAIRAwQFITFBElFhBnGBkaETIjJVorHB0uHwBxRCUlRykrPR0xUlMzVic7LxIzZEU2PCNIKD/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAIDBAEFBv/EADURAAIBAgIHBgYCAQUAAAAAAAABAgMRBCESEzFBUaGxBRRhkdHwIjJScYHhYsEzBhUWcqL/2gAMAwEAAhEDEQA/AO4oiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiALlvK6+ra28X0KFodTZssIENIHeBxzBK6kuScqR+uXfUb90FOmk5JMhUbUW0SfHr0+nH7LPVURbL0+nH7LfVV+2kqgpre6FLgY1Vq8THC03r9O8lvqqbul7fT/Jb6qyIYpg1R1FPgTVWoYzavb6f5LfVUP1v4w8lvqLLgKZc1MCSqSMIf0x4w8lvqKXZvnxh5LfUWdU20uaiB3WSNfNO+vGPkt9RS9yvrxl5LfUWxBRATUwJacjXPi19+M/Jb6ilNmvzxn5DfUWzqKjqoDTZqpst+eNPIb6ifFL98a+Qz8tbVKFS1MBpyNS+L35408hn5am+K37408hn5a2oBJCamBzTZq3xS/fGvkM/LUDZb98a+Qz8tbOXKMJqYcDmtkat8Xvzxr5DPy1D4vfvjTyGflraSoBq7qYEdZI1buF++NPIZ+WphZr98a+Qz8tbOWqZoTUwO6yZrAsd++NfIZ+WphYL98a+Qz8tbWwKq1QdOJYpSNFu++b0oXrZbLaLc6s2o5hcA1gaWuLxsnvAfkrtq4lev+YLDzUf6qy7ass1ZlqCIiidC5HyqP65d9Rv3QXXFyTlOP1076jfulZS+dEKnysvNpBUU2yFAhepkedmTCoVHbVJQK60hpMriondVhb2vinQwcZecmCC7p+aOdUBykpCm15D5d8gAEiDBxkBNC6uixKo72TNh7ophVWEsd/0nzg8RHhADtBKp1L7EwS1g+dr1FUzmotrO63G7D9nYmtHTStHi3ZevI2F1pAEuIA3kwO1Wj79oggS4jVwEgenqCtrM+jUG02rtOjEO2T0Cce1WFWo1rj3o4FY+93bWgz1qHY0JL4ptvwSXW9zZqdrY4S1zSOce4UptrJjaBPDHzLValeTj7EbaYMiBCqnjJL5Y9TSv9PwW2TfL1/o25lUb/R51NtrW7NeTgQ7AxoYjqV5+lwCSGDHScuZQl2lovOPP1MtXsKS+SXvkZcvUJWJF47W8cxOHapLZeNRoOy6dMQJ8ylLtSlFXaf4t6lH+x127aUef7M2GqYNULltTLSzZP+G8aga8ZzWWs91mIc4Ej5Q9I0XKXa1GeTTX3/Rkrdn1KTak1dbveRjQ1TFXNWx1G/JniMfarN7owOB4rfGUZq8Xf7GVpx2kISFDbUQVMiTtCrNVBr1UDlBlkTSL1/zBYuaj/VVXbVxK8/3/AGL/AOP9VVdtWOp8zLY7AiIoEguSco/3476jfuV1tcmv39/H+WPuVKDUZXew5JXVkZE0yoCgVG2XpRpiZDo109qwdrvK0V2nYJo0tXkQTzDRXLHKf+NXW+Tyj+Htk/BJl1PsmrLOWXhv8srfkmvu92UZY3v6uOAybxcfQtQr3jVcSTUcTzmB9UTgr+0OpsBZSEz4VR2Lj6AFZ06AJXoQkmrtefpu+xtpdmypO0HnvLCjZZPpWdsdifUGw3BuEzvEx5z1qpZKAyaDzASSrx/dvBY0DnI9CyYjHXejTs3xexfs30OzFTXx+Qp3W0R3Wo1jBmAfSrinethaC1jGkj5Rpkg/+xxKxTrmtdU4iY4wO1VqPJOtq9g5pP4KMVB51Kl/BbP2crTlKSSWS4+8iu7lDZm973MnLENZpuEyVl7DfFkqCGFh/hIgz9V2KwTuQ7zJ7rJ5oHnWFvHk3XpHKeIzV2qoVMozd/fEyOriIu7imuC28jeaj2tftNaBoRCs73oipDhEgaajitTsd6VxAcSQMIPvKz9C1bTZGW7UdCxVsLOk1LfxX9nqYSvCraUcmuJQYyM4VZrgqFofKsTaSDCz90Va7bzPRnK20zYc3LVXjA2O+xla1XtmyJJxOQ1WOq3vVOTiBwOKLsZ1FeDy8c+mZgxOLp0naTz8PeRvdK/aNkMueII8EST9kY9Kzdz8prNa8KNYsq/Mf3rj0TDhzSuOGoThEk75JKvrHcVpedqmwgjEE97zRIzVj/0/h40rSqNS2pu1vLb/AOr+J4dTEVKtTShG6329Tt7qtU4DZ2hm0z1gqSna2vwqNB3g4kcxWmcnuVNWkBSt1KoA0w2tBOzOQcRmOOK2O86gdsxEGJOkY99OhXymLwuLwNW97Lc024v7P+mW04xq/C48jJvumm4Sxxbz4hWta6qjdNobx7VT/SApCHEkeZXVG9NoTTeD76xktuH7eqqN5K69/h+ZnngN62Fo+yPaJLSB77lLRolxgAn0LMULftY6c4w/FVDaTk2OsLV/yGNs45/noyh4SzOY33QLOUFiB3UT5dX8F2hcc5Qf5gsUiO9o/wBdZdjW+jWdanGo1a6uVtWbSCIitOBcU5dVCL4qRn3Nv3S7WuGfCM+L3qfUZ90mjpK3E0YNXxFNfyj1RJtsHfPdJGU5DmAVlbbyc/vZhoyHsVoXE5k8zfbkjceHvvWmFONP4p/E15L7H2Tw8puyyXHf5BrZ/F34K7ogDSTx/BUabDp1n0K4bhkRO/EqitVnUy3cC6FGFJfD5mRoVSBiej8YVRt4BuQnsCxrXN+U+eaB2mVI6gPrDdMdSpp4Vy2u3v8ABRNQvmZZ1+viNoAbhH91JTverxjmzWPNso08cyNDiR0ZKytHKGp8hgA/ix8kZda1QwMn7sZKuKwtJbF1fkr2/LN2bbtpu02ZiSRMTqCMwc1Rq30wjZqAnitFZfdYO2g4A/Vw6VdU752/2jYPzm4jpGYVlTBVUrrkzFQxWFnK021wdvS5mbXZKVTvmET75jVY0tc3Lq9qma2cWHHd7FQr3i0YOOI3Y9ZCrpVK2lopaXVG2pQoQjpykknvus/XkXDXhw1BVB4g7TsIz9Cvbpb3VxBLRI72PTKurdcNQD5LhoWnzgrspxhPNW4ko1G46Ll9rmBZYzVdtu71uQ1w3ALI2W4mZvxxyywVWkwtMOaQeIV2a7cslTXx809GLsvDcivuUF8TWk3m287voX122OmA2GgY4cM9VmqFJoM4SO1YCjaYV3TtZXmzxDbzOVKUnsNk2mOaWnFpzCx9YmkY2dqlPg7p+adOY4bljDb9nGYSje21OIAG858IjFShisrNXRmeDlt3GVttdtWnFPF2UGA7Dhzbliqct3sIzjA9qtrQ1jzkHA5gYEdA9Cns1fuRxeXYRDztGNxkz0mSsCw2HV3Tbj4NJrzz5l0KdSC0bXXMrfpes07Qc129rsCQNx/FUjyjrBxAY0N0jaBjjLolW1qtFnOJd3M84joa7HqWOtltpN8BzqhGncy3tcY6lopYKnUd1QUvw/0dlGivmdn74Ezba+tfVie+JBpNEYSA6ocukruy888n7X3W9rI6IiowZg5bW7nXoZepCnq4KFrWVrcD5zEOLrS0dl8giIpFIXCPhKP63qfUZ90u7rgvwmH9cVPqU/ulOn86LsM7VoP+S6mFJUG1eCj0KIC9CWitubPrYzqSd07Lw/ZCo4nX7KtaTDiT7etXLmb8OGvUqFVsq6lsyPOxWjKelm7eLt76kzrQAdSpu7EjWPmyVI2mq9KiTkJXZaKK462d75JluWGIy5oUWU4zMjccVk7NdrnZ4dqv6FgpNxc3ujuJhvUIJWOr2lQp3V7/AG92LI4F5O2ZrkwcNnqE9imNNzTPUVs7KNMO/Zsx3MEc2XtV2+zUnDwQDwVC7Wg3ZRf5sT7jJfM/K5qbLTvAOh9oUrrLTPg975uorM2q4nEywHm/uralyfrTJaG87h6JWuOMoW0tO33KJ0GspRUvfgYuntUyC05blsdivwuGJxGY3qiOT1SAO6saNQASSD0BQdyWb8qsB0Y9ZKyYnF4Oos6iT4q75EqLq0naMLrg/wCnn0Mk+8AR32XWsZeDo75hkbg2Y48VXocn6Lce7ViNQC0A9BBVZtjs7MttxnV44aNAWGWIwsc4u7XhZPz65muFWeacXH83/OTRirDb3SdoYATt5diltN91IhjY7SezBZwUbPP7NuMTi4kxzn3lTd0ojAU2AczYGHWo99wum5Om34ZW6kZyquGjGWfFmtUrdXIlwMfxQezNVH1Khwa09ErYReDRk1saADriFK69J4D39+lRn2jSk76heduhymq8I6KqPkYOldNpOMubzTPUFWq3bWfmKtSJ8Mlo6iZKyQvE+3DLcqNW38VF9rVrq0Ir358zndLv4m7vbe7/AFyLWnctWMGtbO4tb2gk9apu5MvJkOaOcnQ8Arg28nVPjjjvUH2pi91l5+pa8BTasUrjsZpXtY2lwd39MyJ1Lt/MvQS8+3G+b2sh/jZ53L0EttOcpwUpvNrM+cxkNCvOK3MIiKZmC4J8JP76qD/jZ9yV3tcL5dVdm/nH/jZ20VxzcE5Lcrl2G/zw/wCy6mKp2F7vkkDmVw2xOGTTz5n2LIG8D7wqFS8+zD2TkVhfatZ7ILzZ9W432lsLrquyYAN7nNxUadwv+UW9aVb1OMSYzwyVu693ndoN55ufXoK7/uOLaySXn/bK3CEd5kmXNGbmc+J9CuG2Ro+X2e1a8+93xmG9XZmom2ug98cJwj5vEx/dZ6lTE1PmkSjWhHY+hsHcmDV3QQFO2owaTzlaubaYwc4ExrhjvKputLyJaTnEGcIzMb8+Co1E3tkdliVa7TNs+Nt3DfvUP0lzLVKlV2OJiMsDpnhpz7im06I2gIG8zvmAOfqhdWG/l1IutC+cTZzeR3qk+8jvWustLvkubid85xqefzKf45U1DRE4YyOoJ3Zku80Fu5GbN4O3qmbSeOmOeAWI+OVNS0cw9nYpXW90eF2CPfnUtQ9xx4qlwMu6qTOfDrmZQ1D1++iw5tROZPviqbrXGvnXdVIg69LeZnuke/vxUsFYgW2MiqbrwdvPv0JqmWRxEDORrPv0qHOZWvm8HaEnrUrrU52p9/cLqoskq8OBnXuaMyOtWz7XTGuXvmVhqlQnVUna648VZGlxZXPGW2IytW9QPBbOmJ9AVrUvSociAOA9JVkZ19h981EGMI6OHuFaqUVuMc8ZUe/yyM/yHqF142Qkknuzc8V6SXmzkI2Lwsn85u8b969JrbH5UeDWd6km+IREUisLgfwik/px8f7bPuiu+Lz/APCcD+mqkZ9zp5Z/stFCp8j+zLsO7VoP+S6lk6oQ7E4fNMk44Z5BUX1TIEPgjSABznBu7fu4qFRpdrOOU7JgCQIOk4anoKlqsiXHIEHPiAIG+dNV5iSPpJVZO9tnv7kgkjZJncCJywMgZkHQHFRpmQdTAnIaawIAUX7OnHMnQQcZkjPs4BStnIHsz48P7bpUinf79/YniBoTHRGEZcPfNQqkHeemMiM8MsMlTB11xAO1nn0RqovxyMTGvEjLLim8680Q2gBJyGEzIHEHdiO1RDurWNTMxGmWXaj2HUEic5JzOowAOBz01U9NskzB11w3axlOPUhFEkZzAyxmTngMs8PaovpYnEwBMmIxBzgDcOvpVZrBGGWcgejrxR0TIjqwn+08MUUsw43KOIBcT9XGTMfiR7xMrn4xBywIIxnDDdmfeVdCl1YHMgmDgcMd8qQ0xGTeMzoXZA4a9qKaIuD3FuAZwz3zAgDgTIHMc50UC05k9vPlJynThoq1WlMjgO2CcJGvR6aTqfDKBqNJjhzKekmQ0ZIouZjjEnPKSc4kDm7FSeMTlz4jmMBVyyZ/t0x75qJbMbt8cV3SK9FFm8EYnzqmQr4UTPDHVU3UjuHSY865pIshCzzLRtOffJVWM4E++5Vm0/fDJTQdE0jVq7rIpGnjO49Ck2M89O3Xcqvc/f8AuowcY5scAc0uVypIt+55RIj30z9qne3CTMZToN88FWFPTTOebLEoWYCOMEc51K7pFMocDKciv3jZP5rOvGV6QXnLkd+8rJ/Nb6eJXo1bofIvseNXVqsl4hERSKguBfCe2q2+KlRtGpUHc6YwY8gzTjwmjiu+ouNJqzJRk4yUltR5c+MV5k2WqTOew+QIiB3kZDzqSreFRnfvs1RoECXBwAz2Ye5k65Suz8v7ZfYqtZddKWR3zyKOfA1XDfu0Wj3tyM5SW5oZa6tMs2g7YdUptaHCYMUmYxJUNTT4c2X97rLfyXptNIdfgM95mI8LEZ6gcSq9O11iNplmqEOHhNbUIOMzOyZx6FslD4D7wPhVrM3mdVd/0Cz12/BRelFuxTvZ1JnzKZrhonOGh4AXdTT4dTne62+XQ5+bRX+i1vs1N5PzOKi60Wj6LVHAMqeqvRvJm7q1nstKjXrG0VGAh1YyC/viWk7RJkAgTOiy6jqafA73yt9XT0PLnxu0aWWrw7yrx3NGhU1O22gZ2SqcNGVB/wBF6hRNRT4Dvlf6unoeX3260H/S1vs1PUQ3hX+iVvs1fVXqBE1FLh1O99xH1cl6Hl8W2v8ARKv2KnpYq1lq2iodnuDmYTL21GtwjUUzifxXppFzu9Lgd79iPq5L0PNFsdaGR/gl8z+zFR0RoZpjfh0q2Norn/S1hzNfn9jm6l6gRd1FLgceNrvbLkjy5NeP/Hqz9R8A6GNlTtdX+j1Rrg1/De1eoEXdTT4Ee9Vvq6HmFjq/0epv8B/m2VEmuf8AT1PsP9VenUTU0+A71V49PQ8vGlW+j1PsP9AU4p1v9ip9h/4L08rW30nPpPYx2w9zHNa+J2HEEB0SJgwc9E1NPgSWOxC2S5L0PNRo1hj3CoIxJ2H+eFbNtreHWF0+0/BfeLmFhvio9hEFrxWhw3H/ABTIWCq/ApbB4Nos7ufujf8AqV3U0+B147EfVyXoapRqPf4FNz4OOyC6DpMBVDRrf7FT7D/wW2XTyEv6wl3xSpSaHxtBlQEOiYJbUYBOJW3cjrRfwtDWXhTBo4gvHcMO9JBmm6cwBlqmpp8Dnfq72y5L0Oc8jrLV/SNlcaVRoFVskseAM8yQvRKIpJJKyM8pOUnKW1hERdIhERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQH/9k=",
+      "nuevo": true,
+      "usado": false,
       "keyWords": [
         "Samsung",
         "LG",
         "Sony"
       ],
-      "category": "televisones"
+      "category": "tecnologia",
+      "id": "1234"
     },
     {
-      "id": "2345",
       "name": "Gorra",
       "price": 30,
       "description": "gorra buena estado",
-      "state": true,
+      "image": "https://deportienda.es/3261-large_default/gorra-deportivo-de-la-coruna-2324-esefy.jpg",
+      "nuevo": true,
       "keyWords": [
         "Gorrahombre",
         "Gorro",
         "Gorra"
       ],
-      "category": "ropa"
+      "category": "ropa",
+      "id": "2345"
     },
     {
-      "name": "Televisor LG de 40 pulgadas",
-      "price": 180,
-      "description": "Funciona perfectamente",
-      "img": "",
-      "state": false,
-      "keyWords": [
-        "Samsung",
-        "LG",
-        "Sony"
-      ],
-      "category": "televisones",
-      "id": "3456"
+      "name": "tv",
+      "price": "150",
+      "description": "tv 34 ",
+      "image": "https://res.cloudinary.com/sharp-consumer-eu/image/fetch/w_1100,f_auto,q_auto/https://s3.infra.brandquad.io/accounts-media/SHRP/DAM/origin/a3b0c3c8-6ce9-11ea-aeea-becc10303f49.jpg",
+      "nuevo": false,
+      "usado": true,
+      "keyWords": "televisores ",
+      "category": "audio",
+      "isFavorite": true,
+      "id": "A7HgWYs"
     },
     {
-      "id": "e908KHp"
+      "name": "iphone 6",
+      "price": "60",
+      "description": "iphone 6 de 18 gb de memoria ",
+      "image": "https://movilesquality.com/pics/contenido/apple-iphone-6s-plus-64gb-plata.jpg",
+      "nuevo": false,
+      "usado": true,
+      "keyWords": "telefono, apple",
+      "category": "tecnologia",
+      "id": "nZ_dHBv"
+    },
+    {
+      "name": "coche",
+      "price": "3000",
+      "description": "",
+      "image": "https://www.bmcautos.es/images/vehiculos-segunda-mano.jpg",
+      "nuevo": false,
+      "usado": false,
+      "keyWords": "coche",
+      "category": "vehiculos",
+      "id": "c1qVP-c"
+    },
+    {
+      "name": "Apartamento",
+      "price": "200.000",
+      "description": "",
+      "image": "https://images.hola.com/imagenes/decoracion/20200415164991/decoracion-interiores-apartamento-moderno-reformado-am/0-807-937/apartamento-7a-a.jpg",
+      "nuevo": false,
+      "usado": false,
+      "keyWords": "",
+      "category": "casa",
+      "id": "_5-YIL-"
     }
   ],
   "reviews": [
     {
-      "rating": 8,
-      "productsId": "3456",
-      "id": "rKA3f1J"
-    },
-    {
-      "rating": 20,
-      "productsId": "2345",
-      "id": "AjP1qSU"
+      "name": "",
+      "description": "Buen vendedor",
+      "stars": "6",
+      "productId": "1234",
+      "id": 1
     }
   ]
 }
